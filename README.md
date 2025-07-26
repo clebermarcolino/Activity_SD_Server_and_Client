@@ -1,6 +1,8 @@
-# Bate-papo TCP Multiusuário
+# Sobre o projeto
 Este projeto implementa um sistema de bate-papo em linha de comando utilizando sockets TCP, baseado no código da Prática 1 fornecido pelo professor. O sistema permite que múltiplos usuários (mais de 2) se conectem a um servidor, enviem mensagens entre si e recebam mensagens enviadas pelo administrador do servidor. As mensagens são retransmitidas (broadcast) para todos os outros clientes conectados, garantindo uma comunicação em grupo em tempo real.
-Tecnologias Utilizadas
+#
+
+## Tecnologias Utilizadas
 
 Java: Linguagem de programação usada para desenvolver o servidor e os clientes. O projeto utiliza a API padrão do Java (Java SE) para implementar a lógica do bate-papo.
 Sockets TCP: Usados para estabelecer comunicação confiável e bidirecional entre o servidor e os clientes, utilizando as classes ServerSocket e Socket do pacote java.net.
