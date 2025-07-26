@@ -3,13 +3,13 @@ Este projeto implementa um sistema de bate-papo em linha de comando utilizando s
 
 ## Tecnologias Utilizadas
 
-Java: Linguagem de programação usada para desenvolver o servidor e os clientes. O projeto utiliza a API padrão do Java (Java SE) para implementar a lógica do bate-papo.
-Sockets TCP: Usados para estabelecer comunicação confiável e bidirecional entre o servidor e os clientes, utilizando as classes ServerSocket e Socket do pacote java.net.
-Threads: Empregadas para permitir concorrência, tanto no servidor (para gerenciar múltiplos clientes) quanto nos clientes (para envio e recebimento assíncrono de mensagens). A classe Thread é usada diretamente no cliente e no ClientHandler.
-ExecutorService: Framework do pacote java.util.concurrent utilizado no servidor para gerenciar um pool de threads, permitindo lidar com múltiplos clientes de forma eficiente.
-Java I/O: Pacotes java.io (como DataInputStream e DataOutputStream) usados para leitura e escrita de mensagens em formato UTF-8 entre o servidor e os clientes.
+### Java: Linguagem de programação usada para desenvolver o servidor e os clientes. O projeto utiliza a API padrão do Java (Java SE) para implementar a lógica do bate-papo.
+### Sockets TCP: Usados para estabelecer comunicação confiável e bidirecional entre o servidor e os clientes, utilizando as classes ServerSocket e Socket do pacote java.net.
+### Threads: Empregadas para permitir concorrência, tanto no servidor (para gerenciar múltiplos clientes) quanto nos clientes (para envio e recebimento assíncrono de mensagens). A classe Thread é usada diretamente no cliente e no ClientHandler.
+### ExecutorService: Framework do pacote java.util.concurrent utilizado no servidor para gerenciar um pool de threads, permitindo lidar com múltiplos clientes de forma eficiente.
+### Java I/O: Pacotes java.io (como DataInputStream e DataOutputStream) usados para leitura e escrita de mensagens em formato UTF-8 entre o servidor e os clientes.
 
-Funcionalidades
+## Funcionalidades
 
 Suporte a múltiplos usuários: O servidor gerencia várias conexões simultâneas, permitindo que mais de dois clientes participem do chat.
 Mensagens bidirecionais: Tanto os clientes quanto o servidor podem enviar mensagens, que são exibidas com prefixos [nome_do_usuário]: ou [Servidor]:.
