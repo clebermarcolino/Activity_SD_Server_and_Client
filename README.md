@@ -1,4 +1,4 @@
-Bate-papo TCP Multiusuário
+### Bate-papo TCP Multiusuário
 Este projeto implementa um sistema de bate-papo em linha de comando utilizando sockets TCP, baseado no código da Prática 1 fornecido pelo professor. O sistema permite que múltiplos usuários (mais de 2) se conectem a um servidor, enviem mensagens entre si e recebam mensagens enviadas pelo administrador do servidor. As mensagens são retransmitidas (broadcast) para todos os outros clientes conectados, garantindo uma comunicação em grupo em tempo real.
 Tecnologias Utilizadas
 
