@@ -52,8 +52,8 @@ O sistema é ideal para demonstrar conceitos de redes, sockets, threads e concor
 1.  **Clonar o repositório**:
 
     ```bash
-    git clone https://github.com/seu-usuario/ChatTCPMultiUser.git
-    cd ChatTCPMultiUser
+    git clone https://github.com/clebermarcolino/activity_SD_Server_and_Client.git
+    cd activity_SD_Server_and_Client
     ```
 
 2.  **Compilar os arquivos**:
